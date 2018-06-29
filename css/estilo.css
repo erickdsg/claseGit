@@ -1,0 +1,14 @@
+div#marcianito{
+	position: relative;
+	animation-name: marcianito;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
+
+@keyframes marcianito{
+	0%{top: 0px; left: 0px;}
+	25%{left: 1350px; top: 0px;}
+	50%{left: 1350px; top: 350px;}
+	75%{left: 0px; top: 350px;}
+	100%{top: 0px; left: 0px;}
+}
